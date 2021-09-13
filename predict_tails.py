@@ -25,8 +25,9 @@ def add_relation_values(dataset, preds_df, bias_relations):
         except KeyError:
             return -1
 
-    triplets = dataset.testing.get_triples_for_relations(bias_relations) #len 3357
-    triplets = [tr for tr in triplets if dataset.entity_to_id[tr[0]] in preds_df.entity.values] #len 1808
+    triplets = dataset.testing.get_triples_for_relations(bias_relations)
+    triplets = [tr for tr in triplets if dataset.entity_to_id[tr[0]] in preds_df.entity.values]
+
     entity_to_tail = {}
     for rel in bias_relations:
         entity_to_tail[rel] = {}
