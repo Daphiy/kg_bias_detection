@@ -1,9 +1,9 @@
 # Towards Automatic Bias Detection in Knowledge Graphs
-Repository for short paper accepted in EMNLP 2021 Findings, you may find our paper here
-https://aclanthology.org/2021.findings-emnlp.321/ 
+Repository for short paper accepted in EMNLP 2021 Findings, you may find our paper [here](
+https://aclanthology.org/2021.findings-emnlp.321/).
 
 
-## Data
+## Data.
 ### FB15K-237
 You may download our trained models from [here](https://polybox.ethz.ch/index.php/s/pLp8Bmp9abrytIQ) in directory `trained_models/`, and uncompress it.
 
